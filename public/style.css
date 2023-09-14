@@ -1,0 +1,57 @@
+
+body{
+    background-color: #000000;
+      font-style: normal; 
+      font-family: arial,
+  }
+  h2{
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 8, 111);
+  }
+  
+  h3{
+    color: rgb(255, 255, 255);
+  }
+  
+  p {
+    font-size: 12px;
+    color: white;
+  }
+  
+  .imagemC {
+    background:  #000000;
+    padding: 10px;
+  }
+  h1 {
+    text-align: center;
+    color:rgb(195, 0, 255);
+  }
+  
+  h3{
+    color: white;
+  }
+  
+  .teste {
+    width: 45%;
+  }
+  
+  .row img { max-width: 187px;}
+  .row {
+    padding: 10px;
+    display: inline-block;
+    margin-right: 0vw;
+    font-size: 3vw;
+    text-align: center;
+    padding: 3vw 0vw 0vw 0vw;
+    min-width:35vw
+  }
+  
+.card-img-top img { max-width: 300px; }
+  .card-img-top {
+    width: 250px;
+    height: 320px;
+    margin: auto;
+    display: block;
+  }
+  

@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
   res.render('index', { message: 'Olá, Mundo!' });
 });
 
+app.get('/contatos', (req, res) => {
+  res.render('contatos', { message: 'teste!' });
+});
+
 app.listen(port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
