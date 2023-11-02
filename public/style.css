@@ -1,13 +1,14 @@
 
 body{
-    background-color: #000000;
-      font-style: normal; 
-      font-family: arial,
+  background-color: rgb(248, 219, 219);
+  font-style: normal; 
+  font-family: arial,
   }
   h2{
     text-align: center;
     font-size: 28px;
     color: rgb(255, 8, 111);
+    background-color: rgb(255, 247, 248);
   }
   
   h3{
@@ -16,7 +17,7 @@ body{
   
   p {
     font-size: 12px;
-    color: white;
+    color: black;
   }
   
   .imagemC {
@@ -25,7 +26,7 @@ body{
   }
   h1 {
     text-align: center;
-    color:rgb(195, 0, 255);
+    color:rgb(183, 16, 130);
   }
   
   h3{
@@ -35,23 +36,64 @@ body{
   .teste {
     width: 45%;
   }
-  
-  .row img { max-width: 187px;}
-  .row {
-    padding: 10px;
-    display: inline-block;
-    margin-right: 0vw;
-    font-size: 3vw;
-    text-align: center;
-    padding: 3vw 0vw 0vw 0vw;
-    min-width:35vw
-  }
-  
+
+
+.container {
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  position: absolute;
+}
+
 .card-img-top img { max-width: 300px; }
   .card-img-top {
     width: 250px;
     height: 320px;
     margin: auto;
     display: block;
+  }
+.card-img-left img { max-width: 300px; }
+  .card-img-left {
+    width: 200px;
+    height: 270px;
+    margin: auto;
+    display: left;
+  }
+  .card-img-center img { max-width: 300px; }
+  .card-img-center {
+    width: 200px;
+    height: 270px;
+    margin: auto;
+    display: center;
+  }
+
+  .card-img-right img { max-width: 300px; }
+  .card-img-right {
+    width: 200px;
+    height: 270px;
+    margin: auto;
+    display: right;
+  }
+
+ .div2{
+  width: 200px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  position: absolute;
+  }
+
+  footer{
+    background-color: rgb(243, 138, 155);
+  }
+  
+  .paragrafo{
+    font-size: 10px;
+  }
+  .rodape{
+    font-size: 10px;
   }
   
